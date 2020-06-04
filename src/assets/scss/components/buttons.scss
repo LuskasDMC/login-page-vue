@@ -1,0 +1,11 @@
+.button-default {
+    background-color: #F08080;
+    color: #fff;
+    outline: none;
+    border: 1px solid #F08080;
+    border-radius: 5px;
+    padding:5px;
+    &:hover{
+        box-shadow: 0px 0px 8px 3px rgba(240,128,128,1);
+    }
+}

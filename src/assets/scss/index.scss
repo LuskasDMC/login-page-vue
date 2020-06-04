@@ -1,0 +1,31 @@
+@import "components/modal.scss";
+@import "components/inputs.scss";
+@import "components/buttons.scss";
+@import "components/images.scss";
+
+@mixin size($width,$height) {
+     width: $width;
+     height: $height;
+}
+
+*{
+     font-family: Roboto, sans-serif;
+}
+
+#app {
+     @include size(100%,100vh);
+     background: radial-gradient(
+          circle, 
+          rgba(255,255,255,0.8911939775910365) 0%, 
+          rgba(83,141,210,0.9136029411764706) 44%, 
+          rgba(210,83,145,0.9220063025210083) 100%
+     );
+}
+
+#register-question {
+     position: absolute;
+     bottom: 0px;
+     color: #808080;
+     font-size: .8rem;
+}
+
